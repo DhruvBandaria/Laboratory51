@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
         rBody2d.velocity = new Vector2(horizontal * speed, vertical * speed);
 
-        gameObject.Transform.Position(new Vector2(Transform.Position.x, Transform.Position.y));
+        //gameObject.Transform.Position(new Vector2(Transform.Position.x, Transform.Position.y));
+        gameObject.transform.SetPositionAndRotation(new Vector3(transform.position.x, transform.position.y,-10),transform.rotation);
     }
 }
