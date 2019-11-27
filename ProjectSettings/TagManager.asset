@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Fow1
+  - Fow2
   - 
   - 
   - 
@@ -43,4 +43,7 @@ TagManager:
     locked: 0
   - name: ForeGround
     uniqueID: 3946670401
+    locked: 0
+  - name: Fow
+    uniqueID: 454581881
     locked: 0
