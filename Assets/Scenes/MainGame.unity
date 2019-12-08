@@ -200,9 +200,10 @@ GameObject:
   - component: {fileID: 24707016}
   - component: {fileID: 24707018}
   - component: {fileID: 24707017}
+  - component: {fileID: 24707019}
   m_Layer: 0
   m_Name: MedKit (8)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,6 +297,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &24707019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24707015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &28372008
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,9 +320,10 @@ GameObject:
   - component: {fileID: 28372009}
   - component: {fileID: 28372011}
   - component: {fileID: 28372010}
+  - component: {fileID: 28372012}
   m_Layer: 0
   m_Name: MedKit (3)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,6 +417,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &28372012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 28372008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &39095610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -410,6 +436,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -419,11 +450,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (12)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -489,6 +515,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (39)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -498,11 +529,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (39)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -568,6 +594,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (34)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -577,11 +608,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (34)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -716,6 +742,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (24)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -725,11 +756,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (24)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -795,6 +821,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -804,11 +835,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (5)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -943,6 +969,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (22)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -952,11 +983,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (22)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -1175,6 +1201,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -1184,11 +1215,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (3)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -1412,6 +1438,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (38)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -1421,11 +1452,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (38)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -1491,6 +1517,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -1500,11 +1531,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (9)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -1683,7 +1709,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -1748,122 +1774,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 0.87145466, y: 0.8841057}
-  m_EdgeRadius: 0
---- !u!1001 &281757525
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 8694004213289429216}
-    m_Modifications:
-    - target: {fileID: 1162067728728354504, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_Name
-      value: BlackSmoke (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -8.981
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 24.021
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 312244890559042942, guid: 6549193012409bd49a6c5ec4c4cb4282,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6549193012409bd49a6c5ec4c4cb4282, type: 3}
---- !u!1 &281757526 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1162067728728354504, guid: 6549193012409bd49a6c5ec4c4cb4282,
-    type: 3}
-  m_PrefabInstance: {fileID: 281757525}
-  m_PrefabAsset: {fileID: 0}
---- !u!61 &281757527
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281757526}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.048662663, y: -0.023877144}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
-    newSize: {x: 1.28, y: 1.28}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.93804455, y: 0.94625664}
   m_EdgeRadius: 0
 --- !u!1001 &367943187
 PrefabInstance:
@@ -12620,7 +12530,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369188855}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -13166,7 +13076,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369188855}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -13400,7 +13310,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369188855}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -13713,7 +13623,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.500481, y: -2.9945974}
+  m_Offset: {x: -8.4365015, y: -2.9945974}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13724,7 +13634,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.99069595, y: 1.982929}
+  m_Size: {x: 0.86273766, y: 1.9829292}
   m_EdgeRadius: 0
 --- !u!61 &369188917
 BoxCollider2D:
@@ -13739,7 +13649,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -9.491449, y: -2.5005803}
+  m_Offset: {x: -9.491449, y: -2.4622087}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -13750,7 +13660,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.9725456, y: 0.9963436}
+  m_Size: {x: 2.9725456, y: 0.9196005}
   m_EdgeRadius: 0
 --- !u!61 &369188918
 BoxCollider2D:
@@ -14225,7 +14135,7 @@ GameObject:
   - component: {fileID: 447762712}
   m_Layer: 0
   m_Name: Monster
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14335,6 +14245,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (31)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -14344,11 +14259,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (31)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -14557,6 +14467,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -14566,11 +14481,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (13)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -14780,7 +14690,7 @@ GameObject:
   - component: {fileID: 483417444}
   m_Layer: 0
   m_Name: Monster (7)
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14882,6 +14792,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -14891,11 +14806,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (16)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -14961,6 +14871,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (35)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -14970,11 +14885,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (35)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -15040,6 +14950,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (19)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -15049,11 +14964,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (19)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -15162,7 +15072,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -15235,6 +15145,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (20)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -15244,11 +15159,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (20)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -15383,6 +15293,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (17)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -15392,11 +15307,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -15462,6 +15372,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -15471,11 +15386,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (10)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -15640,6 +15550,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (23)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -15649,11 +15564,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (23)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -15793,6 +15703,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (21)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -15802,11 +15717,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (21)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -15957,7 +15867,7 @@ GameObject:
   - component: {fileID: 685301811}
   m_Layer: 0
   m_Name: Monster (8)
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16102,7 +16012,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -16175,6 +16085,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -16184,11 +16099,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (15)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -16339,7 +16249,7 @@ GameObject:
   - component: {fileID: 754698492}
   m_Layer: 0
   m_Name: Monster (6)
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16678,6 +16588,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -16687,11 +16602,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (6)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -16994,9 +16904,10 @@ GameObject:
   - component: {fileID: 930302470}
   - component: {fileID: 930302472}
   - component: {fileID: 930302471}
+  - component: {fileID: 930302473}
   m_Layer: 0
   m_Name: MedKit (7)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17090,6 +17001,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &930302473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930302469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &931201523
 GameObject:
   m_ObjectHideFlags: 0
@@ -17103,7 +17026,7 @@ GameObject:
   - component: {fileID: 931201525}
   m_Layer: 0
   m_Name: Monster (5)
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17205,6 +17128,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -17214,11 +17142,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (7)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -17440,6 +17363,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (27)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -17449,11 +17377,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (27)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -17519,6 +17442,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -17528,11 +17456,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -17720,7 +17643,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -17940,9 +17863,10 @@ GameObject:
   - component: {fileID: 1087772004}
   - component: {fileID: 1087772006}
   - component: {fileID: 1087772005}
+  - component: {fileID: 1087772007}
   m_Layer: 0
   m_Name: MedKit (5)
-  m_TagString: Untagged
+  m_TagString: BioSuite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18036,6 +17960,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1087772007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087772003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1129457442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18043,6 +17979,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (33)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -18052,11 +17993,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (33)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -18115,6 +18051,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b952a3cfe5a6e645bcb74dc90121cb8, type: 3}
+--- !u!1 &1149236220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149236222}
+  - component: {fileID: 1149236221}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1149236221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149236220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d0a503525a35b41b1559d4d55d1eeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1149236222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149236220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1149480986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18233,6 +18212,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -18242,11 +18226,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (4)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -18586,6 +18565,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (26)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -18595,11 +18579,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (26)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -18665,6 +18644,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (37)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -18674,11 +18658,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (37)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -18744,6 +18723,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (30)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -18753,11 +18737,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (30)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -18823,6 +18802,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -18832,11 +18816,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (11)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -18902,6 +18881,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (36)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -18911,11 +18895,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (36)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -19050,6 +19029,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (18)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -19059,11 +19043,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (18)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -19313,9 +19292,10 @@ GameObject:
   - component: {fileID: 1353256439}
   - component: {fileID: 1353256438}
   - component: {fileID: 1353256440}
+  - component: {fileID: 1353256441}
   m_Layer: 0
   m_Name: GasMask
-  m_TagString: Untagged
+  m_TagString: GasMask
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19410,6 +19390,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.18859947, y: 0.20483112}
   m_EdgeRadius: 0
+--- !u!114 &1353256441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353256437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1361720526
 GameObject:
   m_ObjectHideFlags: 0
@@ -19571,6 +19563,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (29)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -19580,11 +19577,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (29)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -19650,6 +19642,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -19659,11 +19656,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (14)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -20040,7 +20032,7 @@ GameObject:
   - component: {fileID: 1479333250}
   m_Layer: 0
   m_Name: Monster (3)
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20053,7 +20045,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479333248}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.994, y: 22.975, z: 0}
+  m_LocalPosition: {x: 0.05, y: 21.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 447762711}
@@ -20146,9 +20138,10 @@ GameObject:
   - component: {fileID: 1496548721}
   - component: {fileID: 1496548720}
   - component: {fileID: 1496548719}
+  - component: {fileID: 1496548722}
   m_Layer: 0
   m_Name: MedKit
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20250,6 +20243,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1496548722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496548718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1511854147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21204,9 +21209,10 @@ GameObject:
   - component: {fileID: 1596806601}
   - component: {fileID: 1596806603}
   - component: {fileID: 1596806602}
+  - component: {fileID: 1596806604}
   m_Layer: 0
   m_Name: MedKit (4)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21300,6 +21306,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1596806604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596806600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1599993281
 GameObject:
   m_ObjectHideFlags: 0
@@ -21458,7 +21476,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -21897,9 +21915,10 @@ GameObject:
   - component: {fileID: 1677805013}
   - component: {fileID: 1677805012}
   - component: {fileID: 1677805014}
+  - component: {fileID: 1677805015}
   m_Layer: 0
   m_Name: HazmatSuit
-  m_TagString: Untagged
+  m_TagString: BioSuite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21993,6 +22012,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.72, y: 3.59}
   m_EdgeRadius: 0
+--- !u!114 &1677805015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677805011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1678686259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22151,9 +22182,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1703822722}
   - component: {fileID: 1703822721}
+  - component: {fileID: 1703822723}
+  - component: {fileID: 1703822724}
   m_Layer: 0
   m_Name: Keycard Card 1
-  m_TagString: Untagged
+  m_TagString: Key1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22221,6 +22254,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1703822723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703822720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &1703822724
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703822720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0026905537}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.32}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.1907916, y: 0.28232956}
+  m_EdgeRadius: 0
 --- !u!1001 &1709417909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22348,9 +22419,10 @@ GameObject:
   - component: {fileID: 1716816715}
   - component: {fileID: 1716816717}
   - component: {fileID: 1716816716}
+  - component: {fileID: 1716816718}
   m_Layer: 0
   m_Name: MedKit (1)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22444,6 +22516,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1716816718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716816714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1723956188
 GameObject:
   m_ObjectHideFlags: 0
@@ -22454,9 +22538,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1723956190}
   - component: {fileID: 1723956189}
+  - component: {fileID: 1723956191}
   m_Layer: 0
   m_Name: Keycard Card 3
-  m_TagString: Untagged
+  m_TagString: Key3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22524,6 +22609,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1723956191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723956188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1735256164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22616,7 +22713,7 @@ GameObject:
   - component: {fileID: 1753700905}
   m_Layer: 0
   m_Name: Monster (1)
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22835,7 +22932,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -23020,7 +23117,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -23179,7 +23276,7 @@ GameObject:
   - component: {fileID: 1831092841}
   m_Layer: 0
   m_Name: Monster (4)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23281,6 +23378,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (25)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -23290,11 +23392,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (25)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -23360,6 +23457,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (28)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -23369,11 +23471,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (28)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -23624,6 +23721,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -23633,11 +23735,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (8)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -23746,7 +23843,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -23862,7 +23959,7 @@ PrefabInstance:
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2782523698019919463, guid: 6549193012409bd49a6c5ec4c4cb4282,
         type: 3}
@@ -24009,6 +24106,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -24018,11 +24120,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -24199,6 +24296,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5878735286897012149}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble (32)
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -24208,11 +24310,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.6815088
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble (32)
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
@@ -24473,9 +24570,10 @@ GameObject:
   - component: {fileID: 2057018538}
   - component: {fileID: 2057018537}
   - component: {fileID: 2057018540}
+  - component: {fileID: 2057018541}
   m_Layer: 0
   m_Name: FireExtinguisher
-  m_TagString: Untagged
+  m_TagString: Fire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24488,7 +24586,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057018536}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -24559,7 +24657,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2057018536}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.503, y: -3.4999, z: 0}
+  m_LocalPosition: {x: -10.5, y: -3.48, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24578,7 +24676,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.19989169, y: -0.062261134}
+  m_Offset: {x: 0.070775285, y: -0.062261105}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -24589,8 +24687,20 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0377166, y: 1.1312938}
+  m_Size: {x: 0.49638268, y: 1.1312938}
   m_EdgeRadius: 0
+--- !u!114 &2057018541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057018536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2064288756
 GameObject:
   m_ObjectHideFlags: 0
@@ -24602,9 +24712,10 @@ GameObject:
   - component: {fileID: 2064288757}
   - component: {fileID: 2064288759}
   - component: {fileID: 2064288758}
+  - component: {fileID: 2064288760}
   m_Layer: 0
   m_Name: MedKit (6)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24698,6 +24809,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2064288760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064288756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2080981466
 GameObject:
   m_ObjectHideFlags: 0
@@ -24711,9 +24834,10 @@ GameObject:
   - component: {fileID: 2080981467}
   - component: {fileID: 2080981471}
   - component: {fileID: 2080981472}
+  - component: {fileID: 2080981468}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24739,6 +24863,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2080981468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080981466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &2080981469
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24797,7 +24933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080981466}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -4.5, z: 0}
+  m_LocalPosition: {x: -3.12, y: -3.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1361720528}
@@ -24844,21 +24980,27 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.24998617, y: 0.47673607}
-      - {x: -0.24994469, y: 0.37494183}
-      - {x: -0.37496567, y: 0.3749566}
-      - {x: -0.37498164, y: -0.0000371933}
-      - {x: -0.46981335, y: -0.000166893}
-      - {x: -0.4700048, y: -0.37496758}
-      - {x: -0.37487411, y: -0.37491226}
-      - {x: -0.37670374, y: -0.48160887}
-      - {x: 0.24982476, y: -0.47781944}
+    - - {x: -0.13312292, y: 0.37584972}
+      - {x: -0.12556109, y: 0.25384998}
+      - {x: -0.25810242, y: 0.24752092}
+      - {x: -0.242381, y: -0.0043125153}
+      - {x: -0.37570962, y: -0.000166893}
+      - {x: -0.37162367, y: -0.2509718}
+      - {x: -0.25510582, y: -0.25519276}
+      - {x: -0.24838051, y: -0.49443626}
+      - {x: -0.12800455, y: -0.49461412}
+      - {x: -0.12305567, y: -0.37295723}
+      - {x: -0.0061834753, y: -0.3649373}
+      - {x: 0.0018820763, y: -0.48896408}
+      - {x: 0.12827927, y: -0.48491192}
+      - {x: 0.12577933, y: -0.37520266}
       - {x: 0.24965215, y: -0.37480593}
-      - {x: 0.4759817, y: -0.3758316}
-      - {x: 0.47648335, y: -0.0038871765}
+      - {x: 0.25355488, y: -0.2432847}
+      - {x: 0.3841381, y: -0.25110054}
+      - {x: 0.37382478, y: -0.008162975}
       - {x: 0.37487745, y: -0.0025763512}
-      - {x: 0.3749888, y: -0.000018119812}
-      - {x: 0.37732077, y: 0.4767475}
+      - {x: 0.24529296, y: 0.0063257217}
+      - {x: 0.24983335, y: 0.37586117}
 --- !u!1001 &2091996308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24939,9 +25081,10 @@ GameObject:
   - component: {fileID: 2108739860}
   - component: {fileID: 2108739862}
   - component: {fileID: 2108739861}
+  - component: {fileID: 2108739863}
   m_Layer: 0
   m_Name: MedKit (2)
-  m_TagString: Untagged
+  m_TagString: Medkit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25035,6 +25178,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2108739863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108739859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2115780113
 GameObject:
   m_ObjectHideFlags: 0
@@ -25045,9 +25200,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2115780115}
   - component: {fileID: 2115780114}
+  - component: {fileID: 2115780116}
   m_Layer: 0
   m_Name: Keycard Card 2
-  m_TagString: Untagged
+  m_TagString: Key2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25115,6 +25271,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2115780116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115780113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85324c0928dc4be488af3c72e379c1b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &985534183860303530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25266,6 +25434,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
+        type: 3}
+      propertyPath: m_Name
+      value: ImpassableRubble
+      objectReference: {fileID: 0}
     - target: {fileID: 7831861741987186553, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
       propertyPath: m_Offset.y
@@ -25275,11 +25448,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Size.y
       value: 0.69433856
-      objectReference: {fileID: 0}
-    - target: {fileID: 5783423452823340377, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
-        type: 3}
-      propertyPath: m_Name
-      value: ImpassableRubble
       objectReference: {fileID: 0}
     - target: {fileID: 6657330607950601061, guid: 5b952a3cfe5a6e645bcb74dc90121cb8,
         type: 3}
