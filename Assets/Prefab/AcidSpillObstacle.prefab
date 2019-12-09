@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 920083817525964352}
   - component: {fileID: 4545012647566771015}
   - component: {fileID: 2384594211319592375}
+  - component: {fileID: 8467273289600325990}
   m_Layer: 0
   m_Name: AcidSpillObstacle
   m_TagString: GasHz
@@ -107,3 +108,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.87, y: 0.87}
   m_EdgeRadius: 0
+--- !u!114 &8467273289600325990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033655194317352324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be25518ddfee5454495a130ef27fefdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

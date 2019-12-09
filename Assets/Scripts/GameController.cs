@@ -10,7 +10,8 @@ public class GameController : MonoBehaviour
     void Start()
     {
         playerItem = new List<string>();
-        playerItem.Add("bat");
+        playerItem.Add("Bat");
+        //playerItem.Add("Key2");
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class GameController : MonoBehaviour
     public void AddItem(string itemName)
     {
         playerItem.Add(itemName);
-        Debug.Log("Added");
+        //Debug.Log("Added");
     }
 
     public bool HasItem(string itemName)
@@ -32,11 +33,11 @@ public class GameController : MonoBehaviour
         {
             if (item.ToString().Equals(itemName))
             {
-                Debug.Log("" + item.ToString());
+                //Debug.Log("" + item.ToString());
                 isMatch = true;
             }
         }
-        Debug.Log(isMatch + "");
+        //Debug.Log(isMatch + "");
         return isMatch;
     }
 }
