@@ -5,6 +5,7 @@ using UnityEngine;
 public class FirePassthrougManager : MonoBehaviour
 {
     private GameController gameController;
+    public AudioClip sound;
     void Start()
     {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
@@ -17,6 +18,7 @@ public class FirePassthrougManager : MonoBehaviour
         {
             if (gameController.HasItem("Fire"))
             {
+                AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
                 Destroy(gameObject);
             }
         }
