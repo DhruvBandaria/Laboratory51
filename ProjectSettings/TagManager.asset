@@ -15,6 +15,7 @@ TagManager:
   - GasHz
   - FireHz
   - SmokeHz
+  - WinDoor
   layers:
   - Default
   - TransparentFX

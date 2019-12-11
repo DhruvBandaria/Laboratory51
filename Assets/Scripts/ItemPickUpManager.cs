@@ -16,8 +16,41 @@ public class ItemPickUpManager : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             gameController.AddItem(this.tag);
-            //Debug.Log("entered"+ tag);
-            Destroy(gameObject);
+            if (tag == "Medkit")
+            {
+                if (gameController.AddHealth())
+                {
+                    Destroy(gameObject);
+                }
+            }
+            else
+            {
+                if (tag == "Fire")
+                {
+                    gameController.AddFireEx();
+                }
+                else if(tag == "GasMask")
+                {
+                    gameController.AddGasMask();
+                }
+                else if(tag == "BioSuite")
+                {
+                    gameController.AddBioSuite();
+                }
+                else if(tag == "Key1")
+                {
+                    gameController.AddKey1();
+                }
+                else if (tag == "Key2")
+                {
+                    gameController.AddKey2();
+                }
+                else if (tag == "Key3")
+                {
+                    gameController.AddKey3();
+                }
+                Destroy(gameObject);
+            }
         }
     }
 }

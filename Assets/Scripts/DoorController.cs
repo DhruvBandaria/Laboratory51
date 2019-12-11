@@ -49,5 +49,13 @@ public class DoorController : MonoBehaviour
                 }
             }
         }
+
+        if(collision.gameObject.tag == "Player")
+        {
+            if (tag == "WinDoor")
+            {
+                gameController.WinGame();
+            }
+        }
     }
 }
