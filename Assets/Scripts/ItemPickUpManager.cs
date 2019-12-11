@@ -6,6 +6,7 @@ using UnityEngine;
 public class ItemPickUpManager : MonoBehaviour
 {
     private GameController gameController;
+    public AudioClip sound;
     void Start()
     {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
@@ -20,6 +21,7 @@ public class ItemPickUpManager : MonoBehaviour
             {
                 if (gameController.AddHealth())
                 {
+                    AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
                     Destroy(gameObject);
                 }
             }
@@ -49,6 +51,7 @@ public class ItemPickUpManager : MonoBehaviour
                 {
                     gameController.AddKey3();
                 }
+                AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
                 Destroy(gameObject);
             }
         }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class MonsterAttack : MonoBehaviour
 {
     private GameController gameController;
+    public AudioClip sound;
     void Start()
     {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
@@ -16,6 +17,7 @@ public class MonsterAttack : MonoBehaviour
         {
             if (gameController.Combat())
             {
+                AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
                 Destroy(gameObject);
             }
             else

@@ -5,6 +5,7 @@ using UnityEngine;
 public class SmokePassthrough : MonoBehaviour
 {
     private GameController gameController;
+    public AudioClip sound;
     void Start()
     {
         GameObject gameControllerObject = GameObject.FindWithTag("GameController");
@@ -17,6 +18,7 @@ public class SmokePassthrough : MonoBehaviour
         {
             if (gameController.HasItem("GasMask"))
             {
+                AudioSource.PlayClipAtPoint(sound, Camera.main.transform.position);
                 Destroy(gameObject);
             }
         }
